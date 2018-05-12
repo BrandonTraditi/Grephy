@@ -1,0 +1,5 @@
+Negative Match:
+
+hbahjklmaa
+1aab2aab3aab4jklm
+aiaiai12345jka
