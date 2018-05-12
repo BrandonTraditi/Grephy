@@ -7,7 +7,7 @@ def main():
     regpost = reg_post(args.RegEx, alphabet)
     nfa = post_NFA(regpost)
     dfa = NFA_DFA(nfa, alphabet)
-    compute_DFA(dfa, args.input_file)
+    get_DFA(dfa, args.input_file)
 
 
 
