@@ -1,5 +1,5 @@
 import argparse
-from automata import post_NFA, NFA_DFA, learn_alphabet,reg_post, compute_DFA
+from auto import post_NFA, NFA_DFA, learn_alphabet,reg_post, get_DFA
 
 def main():
     args = parseArgument()
