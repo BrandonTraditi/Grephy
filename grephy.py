@@ -17,7 +17,7 @@ def parseArgument():
     parser.add_argument("-d", help="File to output a DFA")
     parser.add_argument('RegEx', metavar='REGEX-PATTERN', type=str,help="Regular expression to search input file")
     parser.add_argument('input_file', metavar='INPUT-FILE',help="RegEx test file")
-    argument = parser.parseArgument()
+    argument = parser.parse_args()
     return argument
 
 if __name__ == "__main__":
